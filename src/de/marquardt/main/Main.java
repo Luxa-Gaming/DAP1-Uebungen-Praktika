@@ -1,7 +1,7 @@
 package de.marquardt.main;
 
-import de.marquardt.main.praktikum.rekursion.Potenz;
-import de.marquardt.main.praktikum.rekursion.Quersumme;
+import de.marquardt.main.praktikum.rekursion.*;
+
 
 public class Main {
     public static void main(String [] args) {
