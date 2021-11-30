@@ -9,7 +9,7 @@ public class WerteAufsummieren {
         int summe = 0;
         if(0<=n && arr.length>n) {
             if (arr[n] < 0) {
-                summe++;
+                summe = summe + arr[n];
             }
             return summe + sumUpNegatives(arr, n - 1);
         }
