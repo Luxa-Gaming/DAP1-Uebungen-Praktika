@@ -1,23 +1,5 @@
 package de.marquardt.main.praktikum.rekursion;
 
-/*
-    public static int digitSum(int x) {
-        int summe = 0;
-        while(0 != x) {
-            summe = summe + (x % 10);
-            x = x / 10;
-        }
-
-        public static int fakultaet(int n) {
-        if (n <= 1) {
-            return 1;
-        }else{
-            return fakultaet(n-1)*n;
-        }
-    }
-
- */
-
 public class Quersumme {
     public static void main(String[] args) {
         System.out.println("Main Methode der Klasse Quersumme wurde aufgerufen.");
